@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+dist/
+whl/
+py/
+*.exe
+*.docx
+*.pdf

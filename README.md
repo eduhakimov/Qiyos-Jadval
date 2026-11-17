@@ -12,6 +12,10 @@ Antiplagiat va sun’iy intellekt (SI) detektori hisobotlaridagi belgilangan par
 - Bir nechta PDF oynaga tashlansa, tili o‘zi aniqlanadi; sarlavha titul varaqdan avtomatik to‘ldiriladi.
 - Tez ishlaydi: sahifalar bir necha jarayonda parallel qayta ishlanadi.
 
+## O‘rnatish
+
+`ornatuvchi/QiyosJadval-ornatuvchi.exe` faylini yuklab olib ishga tushiring. Administrator huquqi talab qilinmaydi, ish stolida yorliq paydo bo‘ladi.
+
 ## Ishga tushirish (manba koddan)
 
 ```
@@ -31,6 +35,7 @@ python app/main.py --cli natija.docx uz=Uz.pdf ru=Ru.pdf en=En.pdf si=Si.pdf
 - `app/ui.py` — dastur oynasi (PySide6)
 - `app/main.py` — ishga tushirish nuqtasi
 - `build/` — Windows o‘rnatuvchisini yig‘ish skriptlari (NSIS)
+- `ornatuvchi/` — tayyor Windows o‘rnatuvchisi (2.1 versiya)
 
 ## Muallif
 
